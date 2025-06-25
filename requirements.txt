@@ -8,6 +8,7 @@ deepface
 tensorflow==2.17.1
 # ¡Añadir la dependencia que falta!
 tf-keras
+mediapipe==0.10.9
 
 supabase>=2.0.0
 python-multipart>=0.0.6
