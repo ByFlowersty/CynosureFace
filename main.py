@@ -72,7 +72,8 @@ app = FastAPI(
 origins = [
     "http://localhost:5173", # Vite
     "http://127.0.0.1:5173",
-    # Añadir orígenes de producción si es necesario
+    "carelux.netlify.app",
+    
 ]
 app.add_middleware(
     CORSMiddleware,
